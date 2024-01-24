@@ -8,7 +8,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<http:listener-connection host="0.0.0.0" port="8081" />
 	</http:listener-config>
 	<http:request-config name="HTTP_Request_configuration" doc:name="HTTP Request configuration" doc:id="5ddae9b4-e9b4-4abc-a068-a2517c0752a5" >
-		<http:request-connection protocol="HTTPS" host="dummy.restapiexample.com" />
+		<http:request-connection host="dummy.restapiexample.com" />
 	</http:request-config>
 	<flow name="http-requesterFlow" doc:id="2dd8fef2-025e-4975-8e9a-b3887c8ddf8b" >
 		<http:listener doc:name="Listener" doc:id="4879f7b7-734b-4e47-87c3-4c9d220199d7" config-ref="HTTP_Listener_config" path="/rest"/>
