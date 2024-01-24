@@ -4,7 +4,7 @@
 
 	<groupId>com.mycompany</groupId>
 	<artifactId>http-requester</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>mule-application</packaging>
 
 	<name>http-requester-jenkins</name>
@@ -35,7 +35,7 @@
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.4.0</muleVersion>
 						<username>Santhosh_mulesoft1123</username>
-						<password>Santhosh#123</password>
+						<password>Santhosh#1231</password>
 						<applicationName>cicd-api-maven</applicationName>
 						<environment>Sandbox</environment>
 						<workers>1</workers>
